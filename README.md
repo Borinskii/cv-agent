@@ -1,6 +1,6 @@
 # CV-Job Match Agent
 
-A command-line AI agent that analyzes a candidate's CV against a job posting and produces a structured report - including a fit score, matched and missing skills, and **concrete suggestions on how to rewrite and fine-tune the CV** to better align with the role.
+A command-line AI agent that analyzes a candidate's CV against a job posting and produces a structured report — including a fit score, matched and missing skills, and **concrete suggestions on how to rewrite and fine-tune the CV** to better align with the role.
 
 ## What it does
 
@@ -8,7 +8,7 @@ A command-line AI agent that analyzes a candidate's CV against a job posting and
 2. Scrapes and cleans the job posting from a URL
 3. Extracts structured skill sets from both documents using an LLM
 4. Computes a fit score and identifies skill gaps
-5. Generates specific, actionable CV editing recommendations - what to reword, what to highlight, and what is genuinely missing
+5. Generates specific, actionable CV editing recommendations — what to reword, what to highlight, and what is genuinely missing
 
 ## Usage
 
@@ -19,7 +19,7 @@ python main.py --cv path/to/cv.pdf --job https://example.com/job-posting
 ## Setup
 
 ```bash
-git clone https://github.com/your-username/cv-job-match-agent
+git clone https://github.com/Borinskii/cv-agent
 cd cv-job-match-agent
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -52,9 +52,9 @@ cv-job-match-agent/
 
 ## Environment Variables
 
-| Variable | Description                                                                 |
-|---|-----------------------------------------------------------------------------|
-| `FIREWORKS_API_KEY` | Your Fireworks AI API key - get one at [fireworks.ai](https://fireworks.ai) |
+| Variable | Description |
+|---|---|
+| `FIREWORKS_API_KEY` | Your Fireworks AI API key — get one at [fireworks.ai](https://fireworks.ai) |
 
 ## Requirements
 
