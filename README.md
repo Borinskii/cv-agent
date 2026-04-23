@@ -1,4 +1,4 @@
-# CV–Job Match Agent
+# CV-Job Match Agent
 
 A command-line AI agent that analyzes a candidate's CV against a job posting and produces a structured report - including a fit score, matched and missing skills, and **concrete suggestions on how to rewrite and fine-tune the CV** to better align with the role.
 
